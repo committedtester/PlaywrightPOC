@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest -c jest.e2e.config.js"
+    "test": "jest -c jest.e2e.config.js",
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",
