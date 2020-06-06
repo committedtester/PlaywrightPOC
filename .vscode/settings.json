@@ -1,0 +1,14 @@
+{
+	"editor.formatOnSave": true,
+	"prettier.requireConfig": true,
+	"[javascript]": { "editor.formatOnSave": true },
+	"[typescript]": { "editor.formatOnSave": true },
+
+	//CodeLens related overrides
+	"editor.codeLens": true,
+	"javascript.referencesCodeLens.enabled": true,
+	"javascript.referencesCodeLens.showOnAllFunctions": true,
+	"typescript.referencesCodeLens.enabled": true,
+	"typescript.implementationsCodeLens.enabled": true,
+	"typescript.referencesCodeLens.showOnAllFunctions": true
+}
