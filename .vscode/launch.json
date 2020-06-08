@@ -19,7 +19,7 @@
 			"request": "launch",
 			"name": "Jest Current File",
 			"program": "${workspaceFolder}/node_modules/.bin/jest",
-			"args": ["${relativeFile}", "--config", "jest.e2e.config.js"],
+			"args": ["${fileBasenameNoExtension}", "--runInBand", "--config", "jest.e2e.config.js"],
 			"console": "integratedTerminal",
 			"internalConsoleOptions": "neverOpen",
 			"disableOptimisticBPs": true,

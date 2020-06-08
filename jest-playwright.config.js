@@ -1,16 +1,11 @@
 module.exports = {
-  
-    launchBrowserApp: {
-      headless: false
-    },
-    context: {
-      ignoreHTTPSErrors: true,
-      viewport: {
-        width: 1920,
-        height: 1080
-      }
-    },
-    browsers: ["chromium"],
-    //browsers: ["chromium", "firefox"],
-    devices: []
-  }
+	testTimeout: 30000,
+	//headless:false,
+	//devtools:true,
+	context: {
+		ignoreHTTPSErrors: true
+	},
+	browsers: ["chromium"],
+	//browsers: ["chromium", "firefox"],
+	devices: []
+};

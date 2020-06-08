@@ -1,6 +1,8 @@
 node_modules
 dist
 videos/*
+reports/*
+junit/*
 
 .vscode/*
 !.vscode/settings.json

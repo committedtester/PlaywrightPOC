@@ -17,9 +17,10 @@
 		"eslint": "^7.2.0",
 		"eslint-plugin-jest-playwright": "^0.1.1",
 		"jest": "^26.0.1",
+		"jest-html-reporters": "^1.2.1",
+		"jest-junit": "^10.0.0",
 		"jest-playwright-preset": "^0.2.3",
 		"playwright": "^1.0.2",
-		"playwright-chromium": "^1.0.2",
 		"playwright-video": "^2.0.0",
 		"ts-jest": "^26.1.0",
 		"typescript": "^3.9.5"

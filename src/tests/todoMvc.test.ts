@@ -1,20 +1,28 @@
-import playwright from "playwright";
 const { saveVideo } = require("playwright-video");
+import * as initializer from "./../testSetup/initializer";
+import { HomePage } from "./../pageObjects/todoMvc/homePage";
 
-describe("TodoMVC POC ", () => {
+
+describe("TodoMVC PageObject POC ", () => {
 	let browser: any;
 	let page: any;
 	let context: any;
 	let capture: any;
+
 	beforeAll(async () => {
-		browser = await playwright.chromium.launch({ headless: true });
+		browser = await initializer.defaultBeforeAll();
 	});
 	afterAll(async () => {
 		await browser.close();
 	});
 
 	beforeEach(async () => {
-		context = await browser.newContext();
+		context = await browser.newContext({
+			viewport: {
+				width: 1820,
+				height: 980
+			}
+		});
 		page = await context.newPage();
 	});
 	afterEach(async () => {
@@ -22,21 +30,25 @@ describe("TodoMVC POC ", () => {
 		await page.close();
 	});
 
-	let testId001 = "001";
-	it.only(`${testId001}Basic Navigation to realworld`, async () => {
-		await page.goto("https://react-redux.realworld.io/");
-		capture = await saveVideo(page, `./videos/${testId001}.mp4`);
-		expect(await page.title()).toBe("Conduit");
-		await page.click(".nav-link[href='#login']");
-		await page.click("input[type='email']");
+	let testId003 = "T003";
+	it(`${testId003}Navigation and Creation of single todo`, async () => {
+		let homePage = new HomePage(page);
+		capture = await saveVideo(page, `./videos/${testId003}.mp4`);
+		await homePage.GotoTodosURL();
+		expect(await page.title()).toBe("TodoMVC");
+		let todosPage = await homePage.ClickPolymerLink();
+		expect(await page.title()).toBe("Polymer • TodoMVC");
+		await todosPage.EnterNewTodo("Playwright First Todo");
 	});
 
-	let testId002 = "002";
-	it(`${testId002}Basic Navigation to todomvc`, async () => {
-		await page.goto("http://todomvc.com//");
-		capture = await saveVideo(page, `./videos/${testId002}.mp4`);
-		expect(await page.title()).toBe("TodoMVC");
-		await page.click("a[data-source='http://polymer-project.org']");
-		expect(await page.title()).toBe("Polymer • TodoMVC");
+	let testId004 = "T004";
+	it(`${testId004}Editing of todo`, async () => {
+		let homePage = new HomePage(page);
+		capture = await saveVideo(page, `./videos/${testId004}.mp4`);
+		await homePage.GotoTodosURL();
+		let todosPage = await homePage.ClickPolymerLink();
+		await todosPage.EnterNewTodo("Playwright First Todo");
+		await todosPage.EnterNewTodo("Playwright Second Todo");
+		await todosPage.EditTodo(2, "Playwright Edited Second Todo");
 	});
 });
