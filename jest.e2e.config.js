@@ -18,7 +18,7 @@ module.exports = {
 			"jest-junit",
 			{
 				suiteName: "PlaywrightTests",
-				outputDirectory: "./junit/",
+				outputDirectory: "./testOutput/junit/",
 				outputName: "./junit.xml",
 				usePathForSuiteName: "true",
 				includeConsoleOutput: "true"
@@ -27,7 +27,7 @@ module.exports = {
 		[
 			"jest-html-reporters",
 			{
-				publicPath: "./reports/",
+				publicPath: "./testOutput/reports/",
 				filename: "report.html",
 				expand: true
 			}

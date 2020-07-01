@@ -1,8 +1,9 @@
 node_modules
 dist
-videos/*
-reports/*
-junit/*
+testOutput/videos/*
+testOutput/reports/*
+testOutput/junit/*
+testOutput/logs
 
 .vscode/*
 !.vscode/settings.json

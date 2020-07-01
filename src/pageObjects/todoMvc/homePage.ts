@@ -1,20 +1,23 @@
 import { Todospage } from "./todosPage";
+import { testObject } from "../../testSetup/testObject";
+import * as page from "../../helpers/playwright/page";
+import * as element from "../../helpers/playwright/element";
 
 export class HomePage {
-	page;
-	constructor(page) {
-		this.page = page;
+	testObject;
+	constructor(testObject: testObject) {
+		this.testObject = testObject;
 	}
 
 	idPolymerLink = "a[data-source='http://polymer-project.org']";
 	idPolymerWaitFor = "div[class='todoapp'] h1";
 
 	GotoTodosURL = async () => {
-		await this.page.goto("http://todomvc.com//");
+		await page.goto(this.testObject, "http://todomvc.com//");
 	};
 	ClickPolymerLink = async () => {
-		await this.page.click(this.idPolymerLink);
-		await this.page.waitForSelector(this.idPolymerWaitFor);
-		return new Todospage(this.page);
+		await element.click(this.testObject, this.idPolymerLink);
+		await element.waitForSelector(this.testObject, this.idPolymerWaitFor);
+		return new Todospage(this.testObject);
 	};
 }
