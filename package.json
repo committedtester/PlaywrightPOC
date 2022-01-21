@@ -20,7 +20,7 @@
 		"jest-html-reporters": "^1.2.1",
 		"jest-junit": "^10.0.0",
 		"jest-playwright-preset": "^0.2.3",
-		"log4js": "^6.3.0",
+		"log4js": "^6.4.0",
 		"playwright": "^1.0.2",
 		"playwright-video": "^2.0.0",
 		"ts-jest": "^26.1.0",
