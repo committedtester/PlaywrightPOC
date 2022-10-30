@@ -1,31 +1,29 @@
+import { test, expect } from "@playwright/test";
 import * as initializer from "../testSetup/initializer";
 import { HomePage } from "../pageObjects/todoMvc/homePage";
 import * as testObjectClass from "../testSetup/testObject";
 import { Page, Browser, BrowserContext } from "playwright";
 
-describe("MultiSite Testing ", () => {
+test.describe("MultiSite Testing ", () => {
 	let browser: Browser;
 	let page: Page;
 	let context: BrowserContext;
 	let testObject: testObjectClass.testObject;
 
-	beforeAll(async () => {
+	test.beforeAll(async () => {
 		browser = await initializer.defaultBeforeAll();
 	});
-	afterAll(async () => {
+	test.afterAll(async () => {
 		await browser.close();
 	});
 
-	beforeEach(async () => {
+	test.beforeEach(async () => {
 		context = await initializer.createNewContext(browser);
 		page = await context.newPage();
 	});
-	afterEach(async () => {
-		await testObject.stopRecording();
-	});
 
 	let testId005 = "T005";
-	it(`${testId005}Navigation and Creation of single todo`, async () => {
+	test(`${testId005}Navigation and Creation of single todo`, async () => {
 		testObject = await testObjectClass.createTestObject(page, testId005);
 		let homePage = new HomePage(testObject);
 		await homePage.GotoTodosURL();

@@ -4,27 +4,18 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test": "jest -c jest.e2e.config.js",
+		"test": "playwright test -c src/tests",
 		"build": "tsc"
 	},
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
-		"@ffmpeg-installer/ffmpeg": "^1.0.20",
-		"@types/jest": "^25.2.3",
+		"@playwright/test": "^1.27.1",
 		"@typescript-eslint/eslint-plugin": "^3.1.0",
 		"@typescript-eslint/parser": "^3.1.0",
 		"eslint": "^7.2.0",
-		"eslint-plugin-jest-playwright": "^0.1.1",
-		"jest": "^26.0.1",
-		"jest-html-reporters": "^1.2.1",
-		"jest-junit": "^10.0.0",
-		"jest-playwright-preset": "^0.2.3",
 		"log4js": "^6.3.0",
-		"playwright": "^1.0.2",
-		"playwright-video": "^2.0.0",
-		"ts-jest": "^26.1.0",
-		"typescript": "^3.9.5"
-	},
-	"dependencies": {}
+		"playwright": "^1.27.1",
+		"typescript": "^4.8.4"
+	}
 }

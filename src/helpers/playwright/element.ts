@@ -19,7 +19,8 @@ export const getInnerText = async (testObject: testObject, selector: any): Promi
 	let element = await testObject.page.$(selector);
 	let elementText = element?.innerText();
 	if (elementText == undefined || elementText == null) {
-		fail(`Inner Text not identified for ${selector}`);
+		console.error(
+		(`Inner Text not identified for ${selector}`));
 	}
 	testObject.logger.info(`Inner Text of ${elementText} identified for ${selector}`);
 	return elementText;

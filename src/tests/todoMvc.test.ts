@@ -1,31 +1,29 @@
+import { test, expect } from "@playwright/test";
 import * as initializer from "../testSetup/initializer";
 import { HomePage } from "../pageObjects/todoMvc/homePage";
 import * as testObjectClass from "../testSetup/testObject";
 import { Page, Browser, BrowserContext } from "playwright";
 
-describe("TodoMVC PageObject POC ", () => {
+test.describe("TodoMVC PageObject POC ", () => {
 	let browser: Browser;
 	let primaryPage: Page;
 	let context: BrowserContext;
 	let testObject: testObjectClass.testObject;
 
-	beforeAll(async () => {
+	test.beforeAll(async () => {
 		browser = await initializer.defaultBeforeAll();
 	});
-	afterAll(async () => {
+	test.afterAll(async () => {
 		await browser.close();
 	});
 
-	beforeEach(async () => {
+	test.beforeEach(async () => {
 		context = await initializer.createNewContext(browser);
 		primaryPage = await context.newPage();
 	});
-	afterEach(async () => {
-		await testObject.stopRecording();
-	});
 
 	let testId003 = "T003";
-	it(`${testId003}Navigation and Creation of single todo`, async () => {
+	test(`${testId003}Navigation and Creation of single todo`, async () => {
 		testObject = await testObjectClass.createTestObject(primaryPage, testId003);
 		let homePage = new HomePage(testObject);
 		await homePage.GotoTodosURL();
@@ -36,7 +34,7 @@ describe("TodoMVC PageObject POC ", () => {
 	});
 
 	let testId004 = "T004";
-	it(`${testId004}Editing of todo`, async () => {
+	test(`${testId004}Editing of todo`, async () => {
 		testObject = await testObjectClass.createTestObject(primaryPage, testId004);
 		let homePage = new HomePage(testObject);
 		await homePage.GotoTodosURL();

@@ -8,6 +8,7 @@ This repository contains a bit more logic for vscode, including debugging, prett
 Please run:
 
 1. **npm install**
+2. **npm init playwright@latest**
 2. _Build typescript (see below)_
 3. **npm run test**
 

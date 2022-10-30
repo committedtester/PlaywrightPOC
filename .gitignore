@@ -10,3 +10,6 @@ testOutput/logs
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+/test-results/
+/playwright-report/
+/playwright/.cache/
