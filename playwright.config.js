@@ -2,14 +2,14 @@
 const config = {
 	use: {
 		browserName: "chromium",
-		headless: false,
+		headless: true,
 		viewport: { width: 1280, height: 720 },
 		ignoreHTTPSErrors: true,
 		video: "on-first-retry"
 	},
 	timeout: 30000,
 	reporter: [
-		["html", { outputFolder: "./testOutput/reports/" }],
+		["html", { open: "never", outputFolder: "./testOutput/reports/" }],
 		["junit", { outputFile: "./testOutput/junit/junit.xml" }]
 	]
 };

@@ -1,25 +1,17 @@
 import { test, expect } from "@playwright/test";
-import * as initializer from "../testSetup/initializer";
 import { HomePage } from "../pageObjects/todoMvc/homePage";
 import * as testObjectClass from "../testSetup/testObject";
-import { Page, Browser, BrowserContext } from "playwright";
+import { getBrowser } from "../testSetup/testInitializer";
+import { Page, Browser} from "playwright";
 
 test.describe("MultiSite Testing ", () => {
+	let testObject: testObjectClass.testObject;
 	let browser: Browser;
 	let page: Page;
-	let context: BrowserContext;
-	let testObject: testObjectClass.testObject;
 
 	test.beforeAll(async () => {
-		browser = await initializer.defaultBeforeAll();
-	});
-	test.afterAll(async () => {
-		await browser.close();
-	});
-
-	test.beforeEach(async () => {
-		context = await initializer.createNewContext(browser);
-		page = await context.newPage();
+		browser = await getBrowser();
+		page = await browser.newPage();
 	});
 
 	let testId005 = "T005";
@@ -33,7 +25,8 @@ test.describe("MultiSite Testing ", () => {
 		await todosPage.EnterNewTodo("Playwright First Todo");
 		testObject.logger.info("Completed TodoMVC part of Test");
 
-		let secondaryPage = await context.newPage();
+		let secondaryContext = await browser.newContext();
+		let secondaryPage = await secondaryContext.newPage();
 		await secondaryPage.goto("https://react-redux.realworld.io/");
 		expect(await secondaryPage.title()).toBe("Conduit");
 	});

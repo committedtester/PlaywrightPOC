@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test": "playwright test -c src/tests",
+		"test": "npx playwright test",
 		"build": "tsc"
 	},
 	"author": "",

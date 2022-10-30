@@ -1,25 +1,14 @@
 import { test, expect } from "@playwright/test";
-import * as initializer from "./../testSetup/initializer";
-import { Page, Browser, BrowserContext } from "playwright";
+import { Page, Browser} from "playwright";
+import { getBrowser } from "../testSetup/testInitializer";
 
 test.describe("TodoMVC No Page Object POC ", () => {
 	let browser: Browser;
-	let context: BrowserContext;
 	let page: Page;
-	let capture;
-	test.beforeAll(async () => {
-		browser = await initializer.defaultBeforeAll();
-	});
-	test.afterAll(async () => {
-		await browser.close();
-	});
 
-	test.beforeEach(async () => {
-		context = await initializer.createNewContext(browser);
-		page = await context.newPage();
-	});
-	test.afterEach(async () => {
-		await page.close();
+	test.beforeAll(async () => {
+		browser = await getBrowser();
+		page = await browser.newPage();
 	});
 
 	let testId001 = "T001";
