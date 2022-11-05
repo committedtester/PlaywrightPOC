@@ -1,0 +1,2809 @@
+{
+	"alertsByRisk": [
+		{
+			"Informational": [
+				{
+					"Information Disclosure - Sensitive Information in URL": [
+						{
+							"param": "session_id",
+							"confidence": "Medium",
+							"name": "Information Disclosure - Sensitive Information in URL",
+							"risk": "Informational",
+							"id": "571",
+							"url": "https://syndication.twitter.com/settings?session_id=40e1a755bff5e110dc73dec64260f69762fc98b7"
+						},
+						{
+							"param": "session_id",
+							"confidence": "Medium",
+							"name": "Information Disclosure - Sensitive Information in URL",
+							"risk": "Informational",
+							"id": "495",
+							"url": "https://syndication.twitter.com/settings?session_id=a81b4bda197e514e7b5182b424a8b33d473e6078"
+						},
+						{
+							"param": "session_id",
+							"confidence": "Medium",
+							"name": "Information Disclosure - Sensitive Information in URL",
+							"risk": "Informational",
+							"id": "766",
+							"url": "https://syndication.twitter.com/settings?session_id=d98ee303dcf536917842e7db8fb426493be1bce8"
+						}
+					]
+				},
+				{
+					"Information Disclosure - Suspicious Comments": [
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "210",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=auth/exm=plusone/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_1?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "217",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=auth/exm=plusone/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_1?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "213",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=auth/exm=plusone/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_1?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "214",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=auth/exm=plusone/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_1?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "219",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=auth/exm=plusone/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_1?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "122",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=plusone/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_0?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "124",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=plusone/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_0?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "123",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=plusone/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_0?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "125",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=plusone/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_0?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "625",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=rpc,shindig_random/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_0?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "628",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=rpc,shindig_random/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_0?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "626",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=rpc,shindig_random/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_0?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "97",
+							"url": "https://apis.google.com/js/plusone.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "98",
+							"url": "https://apis.google.com/js/plusone.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "603",
+							"url": "https://apis.google.com/js/rpc:shindig_random.js?onload=init"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "528",
+							"url": "https://platform.twitter.com/js/button.d2f864f87f544dc0c11d7d712a191c1f.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "104",
+							"url": "https://platform.twitter.com/widgets.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "551",
+							"url": "https://platform.twitter.com/widgets/follow_button.644279d1635fd969e87af94a98bd232b.en.html"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "585",
+							"url": "https://platform.twitter.com/widgets/tweet_button.644279d1635fd969e87af94a98bd232b.en.html"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "151",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "555",
+							"url": "https://react-redux.realworld.io/main.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "557",
+							"url": "https://react-redux.realworld.io/main.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "552",
+							"url": "https://react-redux.realworld.io/main.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "564",
+							"url": "https://react-redux.realworld.io/main.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "554",
+							"url": "https://react-redux.realworld.io/main.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "558",
+							"url": "https://react-redux.realworld.io/main.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "562",
+							"url": "https://react-redux.realworld.io/main.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "566",
+							"url": "https://react-redux.realworld.io/main.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "560",
+							"url": "https://react-redux.realworld.io/main.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "559",
+							"url": "https://react-redux.realworld.io/main.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "567",
+							"url": "https://react-redux.realworld.io/main.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "40",
+							"url": "https://todomvc.com//"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "41",
+							"url": "https://todomvc.com//"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "42",
+							"url": "https://todomvc.com//"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "3",
+							"url": "https://todomvc.com//bower_components/webcomponentsjs/webcomponents-lite.min.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "644",
+							"url": "https://todomvc.com//examples/polymer/bower_components/todomvc-common/base.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "695",
+							"url": "https://todomvc.com//examples/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "735",
+							"url": "https://todomvc.com//examples/polymer/elements/elements.build.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "736",
+							"url": "https://todomvc.com//examples/polymer/elements/elements.build.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "22",
+							"url": "https://todomvc.com//site-assets/main.min.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "25",
+							"url": "https://todomvc.com//site-assets/main.min.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "24",
+							"url": "https://todomvc.com//site-assets/main.min.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "660",
+							"url": "https://www.google-analytics.com/analytics.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "662",
+							"url": "https://www.google-analytics.com/analytics.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "82",
+							"url": "https://www.google-analytics.com/ga.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Information Disclosure - Suspicious Comments",
+							"risk": "Informational",
+							"id": "83",
+							"url": "https://www.google-analytics.com/ga.js"
+						}
+					]
+				},
+				{
+					"Modern Web Application": [
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Modern Web Application",
+							"risk": "Informational",
+							"id": "513",
+							"url": "https://accounts.google.com/o/oauth2/postmessageRelay?parent=https%3A%2F%2Ftodomvc.com&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Modern Web Application",
+							"risk": "Informational",
+							"id": "524",
+							"url": "https://accounts.google.com/o/oauth2/postmessageRelay?parent=https%3A%2F%2Ftodomvc.com&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Modern Web Application",
+							"risk": "Informational",
+							"id": "780",
+							"url": "https://accounts.google.com/o/oauth2/postmessageRelay?parent=https%3A%2F%2Ftodomvc.com&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Modern Web Application",
+							"risk": "Informational",
+							"id": "556",
+							"url": "https://platform.twitter.com/widgets/follow_button.644279d1635fd969e87af94a98bd232b.en.html"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Modern Web Application",
+							"risk": "Informational",
+							"id": "152",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Modern Web Application",
+							"risk": "Informational",
+							"id": "570",
+							"url": "https://react-redux.realworld.io/main.js"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Modern Web Application",
+							"risk": "Informational",
+							"id": "47",
+							"url": "https://todomvc.com//"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Modern Web Application",
+							"risk": "Informational",
+							"id": "77",
+							"url": "https://todomvc.com//bower_components/paper-icon-button/"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Modern Web Application",
+							"risk": "Informational",
+							"id": "737",
+							"url": "https://todomvc.com//examples/polymer/elements/elements.build.js"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Modern Web Application",
+							"risk": "Informational",
+							"id": "26",
+							"url": "https://todomvc.com//site-assets/main.min.js"
+						}
+					]
+				},
+				{
+					"Re-examine Cache-control Directives": [
+						{
+							"param": "Cache-Control",
+							"confidence": "Low",
+							"name": "Re-examine Cache-control Directives",
+							"risk": "Informational",
+							"id": "602",
+							"url": "https://api.realworld.io/api/articles?limit=10&offset=0"
+						},
+						{
+							"param": "Cache-Control",
+							"confidence": "Low",
+							"name": "Re-examine Cache-control Directives",
+							"risk": "Informational",
+							"id": "574",
+							"url": "https://api.realworld.io/api/tags"
+						},
+						{
+							"param": "Cache-Control",
+							"confidence": "Low",
+							"name": "Re-examine Cache-control Directives",
+							"risk": "Informational",
+							"id": "541",
+							"url": "https://platform.twitter.com/widgets/follow_button.644279d1635fd969e87af94a98bd232b.en.html"
+						},
+						{
+							"param": "Cache-Control",
+							"confidence": "Low",
+							"name": "Re-examine Cache-control Directives",
+							"risk": "Informational",
+							"id": "575",
+							"url": "https://platform.twitter.com/widgets/tweet_button.644279d1635fd969e87af94a98bd232b.en.html"
+						},
+						{
+							"param": "Cache-Control",
+							"confidence": "Low",
+							"name": "Re-examine Cache-control Directives",
+							"risk": "Informational",
+							"id": "137",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "Cache-Control",
+							"confidence": "Low",
+							"name": "Re-examine Cache-control Directives",
+							"risk": "Informational",
+							"id": "34",
+							"url": "https://react-redux.realworld.io/"
+						},
+						{
+							"param": "Cache-Control",
+							"confidence": "Low",
+							"name": "Re-examine Cache-control Directives",
+							"risk": "Informational",
+							"id": "569",
+							"url": "https://syndication.twitter.com/settings?session_id=40e1a755bff5e110dc73dec64260f69762fc98b7"
+						},
+						{
+							"param": "Cache-Control",
+							"confidence": "Low",
+							"name": "Re-examine Cache-control Directives",
+							"risk": "Informational",
+							"id": "489",
+							"url": "https://syndication.twitter.com/settings?session_id=a81b4bda197e514e7b5182b424a8b33d473e6078"
+						},
+						{
+							"param": "Cache-Control",
+							"confidence": "Low",
+							"name": "Re-examine Cache-control Directives",
+							"risk": "Informational",
+							"id": "765",
+							"url": "https://syndication.twitter.com/settings?session_id=d98ee303dcf536917842e7db8fb426493be1bce8"
+						},
+						{
+							"param": "Cache-Control",
+							"confidence": "Low",
+							"name": "Re-examine Cache-control Directives",
+							"risk": "Informational",
+							"id": "15",
+							"url": "https://todomvc.com//"
+						},
+						{
+							"param": "Cache-Control",
+							"confidence": "Low",
+							"name": "Re-examine Cache-control Directives",
+							"risk": "Informational",
+							"id": "73",
+							"url": "https://todomvc.com//bower_components/paper-icon-button/"
+						},
+						{
+							"param": "Cache-Control",
+							"confidence": "Low",
+							"name": "Re-examine Cache-control Directives",
+							"risk": "Informational",
+							"id": "685",
+							"url": "https://todomvc.com//examples/polymer/elements/elements.build.html"
+						},
+						{
+							"param": "Cache-Control",
+							"confidence": "Low",
+							"name": "Re-examine Cache-control Directives",
+							"risk": "Informational",
+							"id": "627",
+							"url": "https://todomvc.com//examples/polymer/index.html"
+						},
+						{
+							"param": "Cache-Control",
+							"confidence": "Low",
+							"name": "Re-examine Cache-control Directives",
+							"risk": "Informational",
+							"id": "658",
+							"url": "https://todomvc.com//learn.json"
+						}
+					]
+				},
+				{
+					"Retrieved from Cache": [
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "0",
+							"url": "http://todomvc.com//"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "223",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=auth/exm=plusone/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_1?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "126",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=plusone/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_0?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "632",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=rpc,shindig_random/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_0?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "804",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=rpc,shindig_random/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_0?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "131",
+							"url": "https://apis.google.com/u/0/se/0/_/+1/fastbutton?usegapi=1&size=medium&annotation=none&origin=https%3A%2F%2Ftodomvc.com&url=http%3A%2F%2Ftodomvc.com%2F&gsrc=3p&ic=1&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "145",
+							"url": "https://apis.google.com/u/0/se/0/_/+1/fastbutton?usegapi=1&size=medium&annotation=none&origin=https%3A%2F%2Ftodomvc.com&url=http%3A%2F%2Ftodomvc.com%2F&gsrc=3p&ic=1&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "746",
+							"url": "https://apis.google.com/u/0/se/0/_/+1/fastbutton?usegapi=1&size=medium&annotation=none&origin=https%3A%2F%2Ftodomvc.com&url=http%3A%2F%2Ftodomvc.com%2F&gsrc=3p&ic=1&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "69",
+							"url": "https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "539",
+							"url": "https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.ttf?v=2.0.1"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "76",
+							"url": "https://demo.productionready.io/main.css"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "878",
+							"url": "https://demo.productionready.io/main.css"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "276",
+							"url": "https://fonts.gstatic.com/s/sourcesanspro/v21/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "1052",
+							"url": "https://fonts.gstatic.com/s/sourcesanspro/v21/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "424",
+							"url": "https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "1026",
+							"url": "https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "471",
+							"url": "https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu.woff2"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "1056",
+							"url": "https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu.woff2"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "453",
+							"url": "https://fonts.gstatic.com/s/titilliumweb/v15/NaPDcZTIAOhVxoMyOr9n_E7ffHjDGItzYw.woff2"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "986",
+							"url": "https://fonts.gstatic.com/s/titilliumweb/v15/NaPDcZTIAOhVxoMyOr9n_E7ffHjDGItzYw.woff2"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "529",
+							"url": "https://platform.twitter.com/js/button.d2f864f87f544dc0c11d7d712a191c1f.js"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "106",
+							"url": "https://platform.twitter.com/widgets.js"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "561",
+							"url": "https://platform.twitter.com/widgets/follow_button.644279d1635fd969e87af94a98bd232b.en.html"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "586",
+							"url": "https://platform.twitter.com/widgets/tweet_button.644279d1635fd969e87af94a98bd232b.en.html"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "154",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "596",
+							"url": "https://react-redux.realworld.io/main.js"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "1084",
+							"url": "https://react-redux.realworld.io/main.js"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "544",
+							"url": "https://ssl.gstatic.com/accounts/o/1832714284-postmessagerelay.js"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "52",
+							"url": "https://todomvc.com//"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "78",
+							"url": "https://todomvc.com//bower_components/paper-icon-button/"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "5",
+							"url": "https://todomvc.com//bower_components/webcomponentsjs/webcomponents-lite.min.js"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "674",
+							"url": "https://todomvc.com//examples/polymer/bower_components/todomvc-app-css/index.css"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "640",
+							"url": "https://todomvc.com//examples/polymer/bower_components/todomvc-common/base.css"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "645",
+							"url": "https://todomvc.com//examples/polymer/bower_components/todomvc-common/base.js"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "698",
+							"url": "https://todomvc.com//examples/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "688",
+							"url": "https://todomvc.com//examples/polymer/elements/elements.build.html"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "738",
+							"url": "https://todomvc.com//examples/polymer/elements/elements.build.js"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "631",
+							"url": "https://todomvc.com//examples/polymer/index.html"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "668",
+							"url": "https://todomvc.com//learn.json"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "11",
+							"url": "https://todomvc.com//site-assets/main.min.css"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "30",
+							"url": "https://todomvc.com//site-assets/main.min.js"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "663",
+							"url": "https://www.google-analytics.com/analytics.js"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "745",
+							"url": "https://www.google-analytics.com/analytics.js"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "864",
+							"url": "https://www.google-analytics.com/analytics.js"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "84",
+							"url": "https://www.google-analytics.com/ga.js"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Retrieved from Cache",
+							"risk": "Informational",
+							"id": "395",
+							"url": "https://www.google-analytics.com/ga.js"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Low": [
+				{
+					"CSP: Notices": [
+						{
+							"param": "Content-Security-Policy",
+							"confidence": "High",
+							"name": "CSP: Notices",
+							"risk": "Low",
+							"id": "502",
+							"url": "https://accounts.google.com/o/oauth2/postmessageRelay?parent=https%3A%2F%2Ftodomvc.com&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						},
+						{
+							"param": "Content-Security-Policy",
+							"confidence": "High",
+							"name": "CSP: Notices",
+							"risk": "Low",
+							"id": "512",
+							"url": "https://accounts.google.com/o/oauth2/postmessageRelay?parent=https%3A%2F%2Ftodomvc.com&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						},
+						{
+							"param": "Content-Security-Policy",
+							"confidence": "High",
+							"name": "CSP: Notices",
+							"risk": "Low",
+							"id": "771",
+							"url": "https://accounts.google.com/o/oauth2/postmessageRelay?parent=https%3A%2F%2Ftodomvc.com&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						},
+						{
+							"param": "Content-Security-Policy",
+							"confidence": "High",
+							"name": "CSP: Notices",
+							"risk": "Low",
+							"id": "505",
+							"url": "https://accounts.google.com/o/oauth2/postmessageRelay?parent=https%3A%2F%2Ftodomvc.com&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						}
+					]
+				},
+				{
+					"Cross-Domain JavaScript Source File Inclusion": [
+						{
+							"param": "https://apis.google.com/js/rpc:shindig_random.js?onload=init",
+							"confidence": "Medium",
+							"name": "Cross-Domain JavaScript Source File Inclusion",
+							"risk": "Low",
+							"id": "511",
+							"url": "https://accounts.google.com/o/oauth2/postmessageRelay?parent=https%3A%2F%2Ftodomvc.com&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						},
+						{
+							"param": "https://apis.google.com/js/rpc:shindig_random.js?onload=init",
+							"confidence": "Medium",
+							"name": "Cross-Domain JavaScript Source File Inclusion",
+							"risk": "Low",
+							"id": "523",
+							"url": "https://accounts.google.com/o/oauth2/postmessageRelay?parent=https%3A%2F%2Ftodomvc.com&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						},
+						{
+							"param": "https://apis.google.com/js/rpc:shindig_random.js?onload=init",
+							"confidence": "Medium",
+							"name": "Cross-Domain JavaScript Source File Inclusion",
+							"risk": "Low",
+							"id": "779",
+							"url": "https://accounts.google.com/o/oauth2/postmessageRelay?parent=https%3A%2F%2Ftodomvc.com&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						},
+						{
+							"param": "https://ssl.gstatic.com/accounts/o/1832714284-postmessagerelay.js",
+							"confidence": "Medium",
+							"name": "Cross-Domain JavaScript Source File Inclusion",
+							"risk": "Low",
+							"id": "510",
+							"url": "https://accounts.google.com/o/oauth2/postmessageRelay?parent=https%3A%2F%2Ftodomvc.com&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						},
+						{
+							"param": "https://ssl.gstatic.com/accounts/o/1832714284-postmessagerelay.js",
+							"confidence": "Medium",
+							"name": "Cross-Domain JavaScript Source File Inclusion",
+							"risk": "Low",
+							"id": "522",
+							"url": "https://accounts.google.com/o/oauth2/postmessageRelay?parent=https%3A%2F%2Ftodomvc.com&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						},
+						{
+							"param": "https://ssl.gstatic.com/accounts/o/1832714284-postmessagerelay.js",
+							"confidence": "Medium",
+							"name": "Cross-Domain JavaScript Source File Inclusion",
+							"risk": "Low",
+							"id": "778",
+							"url": "https://accounts.google.com/o/oauth2/postmessageRelay?parent=https%3A%2F%2Ftodomvc.com&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						}
+					]
+				},
+				{
+					"Secure Pages Include Mixed Content": [
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Secure Pages Include Mixed Content",
+							"risk": "Low",
+							"id": "46",
+							"url": "https://todomvc.com//"
+						}
+					]
+				},
+				{
+					"Server Leaks Information via \"X-Powered-By\" HTTP Response Header Field(s)": [
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Server Leaks Information via \"X-Powered-By\" HTTP Response Header Field(s)",
+							"risk": "Low",
+							"id": "615",
+							"url": "https://api.realworld.io/api/articles?limit=10&offset=0"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Server Leaks Information via \"X-Powered-By\" HTTP Response Header Field(s)",
+							"risk": "Low",
+							"id": "579",
+							"url": "https://api.realworld.io/api/tags"
+						}
+					]
+				},
+				{
+					"Server Leaks Version Information via \"Server\" HTTP Response Header Field": [
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Server Leaks Version Information via \"Server\" HTTP Response Header Field",
+							"risk": "Low",
+							"id": "530",
+							"url": "https://platform.twitter.com/js/button.d2f864f87f544dc0c11d7d712a191c1f.js"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Server Leaks Version Information via \"Server\" HTTP Response Header Field",
+							"risk": "Low",
+							"id": "107",
+							"url": "https://platform.twitter.com/widgets.js"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Server Leaks Version Information via \"Server\" HTTP Response Header Field",
+							"risk": "Low",
+							"id": "563",
+							"url": "https://platform.twitter.com/widgets/follow_button.644279d1635fd969e87af94a98bd232b.en.html"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Server Leaks Version Information via \"Server\" HTTP Response Header Field",
+							"risk": "Low",
+							"id": "589",
+							"url": "https://platform.twitter.com/widgets/tweet_button.644279d1635fd969e87af94a98bd232b.en.html"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Server Leaks Version Information via \"Server\" HTTP Response Header Field",
+							"risk": "Low",
+							"id": "155",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Server Leaks Version Information via \"Server\" HTTP Response Header Field",
+							"risk": "Low",
+							"id": "664",
+							"url": "https://www.google-analytics.com/analytics.js"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Server Leaks Version Information via \"Server\" HTTP Response Header Field",
+							"risk": "Low",
+							"id": "85",
+							"url": "https://www.google-analytics.com/ga.js"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Server Leaks Version Information via \"Server\" HTTP Response Header Field",
+							"risk": "Low",
+							"id": "916",
+							"url": "https://www.google-analytics.com/j/collect?v=1&_v=j98&a=1048862459&t=pageview&_s=1&dl=https%3A%2F%2Ftodomvc.com%2F%2Fexamples%2Fpolymer%2Findex.html&ul=en-us&de=UTF-8&dt=Polymer%20%E2%80%A2%20TodoMVC&sd=24-bit&sr=1280x720&vp=1280x720&je=0&_utma=269352180.490142445.1667679584.1667679584.1667679584.1&_utmz=269352180.1667679584.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&_utmht=1667679589082&_u=AACCAEABAAAAACAAI~&jid=&gjid=&cid=490142445.1667679584&tid=UA-31081062-1&_gid=1092009724.1667679587&_slc=1&z=1823160092"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Server Leaks Version Information via \"Server\" HTTP Response Header Field",
+							"risk": "Low",
+							"id": "757",
+							"url": "https://www.google-analytics.com/j/collect?v=1&_v=j98&a=1526404482&t=pageview&_s=1&dl=https%3A%2F%2Ftodomvc.com%2F%2Fexamples%2Fpolymer%2Findex.html&ul=en-us&de=UTF-8&dt=Polymer%20%E2%80%A2%20TodoMVC&sd=24-bit&sr=1280x720&vp=1280x720&je=0&_utma=269352180.671883479.1667679585.1667679585.1667679585.1&_utmz=269352180.1667679585.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&_utmht=1667679588065&_u=IQBCAEABAAAAACAAI~&jid=1320180389&gjid=1643328235&cid=671883479.1667679585&tid=UA-31081062-1&_gid=1255430904.1667679588&_r=1&_slc=1&z=573270555"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Server Leaks Version Information via \"Server\" HTTP Response Header Field",
+							"risk": "Low",
+							"id": "723",
+							"url": "https://www.google-analytics.com/j/collect?v=1&_v=j98&a=751686064&t=pageview&_s=1&dl=https%3A%2F%2Ftodomvc.com%2F%2Fexamples%2Fpolymer%2Findex.html&ul=en-us&de=UTF-8&dt=Polymer%20%E2%80%A2%20TodoMVC&sd=24-bit&sr=1280x720&vp=1280x720&je=0&_utma=269352180.490142445.1667679584.1667679584.1667679584.1&_utmz=269352180.1667679584.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&_utmht=1667679587377&_u=IQBCAEABAAAAACAAI~&jid=2000748333&gjid=680850662&cid=490142445.1667679584&tid=UA-31081062-1&_gid=1092009724.1667679587&_r=1&_slc=1&z=1571372165"
+						}
+					]
+				},
+				{
+					"Strict-Transport-Security Header Not Set": [
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "514",
+							"url": "https://accounts.google.com/o/oauth2/postmessageRelay?parent=https%3A%2F%2Ftodomvc.com&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "612",
+							"url": "https://api.realworld.io/api/articles?limit=10&offset=0"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "577",
+							"url": "https://api.realworld.io/api/tags"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "227",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=auth/exm=plusone/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_1?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "127",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=plusone/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_0?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "633",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=rpc,shindig_random/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_0?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "100",
+							"url": "https://apis.google.com/js/plusone.js"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "608",
+							"url": "https://apis.google.com/js/rpc:shindig_random.js?onload=init"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "132",
+							"url": "https://apis.google.com/u/0/se/0/_/+1/fastbutton?usegapi=1&size=medium&annotation=none&origin=https%3A%2F%2Ftodomvc.com&url=http%3A%2F%2Ftodomvc.com%2F&gsrc=3p&ic=1&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "70",
+							"url": "https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "540",
+							"url": "https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.ttf?v=2.0.1"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "148",
+							"url": "https://conduit.productionready.io/api/articles?limit=10&offset=0"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "150",
+							"url": "https://conduit.productionready.io/api/tags"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "80",
+							"url": "https://demo.productionready.io/main.css"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "277",
+							"url": "https://fonts.gstatic.com/s/sourcesanspro/v21/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "426",
+							"url": "https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "472",
+							"url": "https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu.woff2"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "455",
+							"url": "https://fonts.gstatic.com/s/titilliumweb/v15/NaPDcZTIAOhVxoMyOr9n_E7ffHjDGItzYw.woff2"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "531",
+							"url": "https://platform.twitter.com/js/button.d2f864f87f544dc0c11d7d712a191c1f.js"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "109",
+							"url": "https://platform.twitter.com/widgets.js"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "565",
+							"url": "https://platform.twitter.com/widgets/follow_button.644279d1635fd969e87af94a98bd232b.en.html"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "590",
+							"url": "https://platform.twitter.com/widgets/tweet_button.644279d1635fd969e87af94a98bd232b.en.html"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "156",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "36",
+							"url": "https://react-redux.realworld.io/"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "597",
+							"url": "https://react-redux.realworld.io/main.js"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "546",
+							"url": "https://ssl.gstatic.com/accounts/o/1832714284-postmessagerelay.js"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "55",
+							"url": "https://todomvc.com//"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "79",
+							"url": "https://todomvc.com//bower_components/paper-icon-button/"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "6",
+							"url": "https://todomvc.com//bower_components/webcomponentsjs/webcomponents-lite.min.js"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "675",
+							"url": "https://todomvc.com//examples/polymer/bower_components/todomvc-app-css/index.css"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "641",
+							"url": "https://todomvc.com//examples/polymer/bower_components/todomvc-common/base.css"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "646",
+							"url": "https://todomvc.com//examples/polymer/bower_components/todomvc-common/base.js"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "700",
+							"url": "https://todomvc.com//examples/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "689",
+							"url": "https://todomvc.com//examples/polymer/elements/elements.build.html"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "739",
+							"url": "https://todomvc.com//examples/polymer/elements/elements.build.js"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "634",
+							"url": "https://todomvc.com//examples/polymer/index.html"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "669",
+							"url": "https://todomvc.com//learn.json"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "12",
+							"url": "https://todomvc.com//site-assets/main.min.css"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "31",
+							"url": "https://todomvc.com//site-assets/main.min.js"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "918",
+							"url": "https://www.google-analytics.com/j/collect?v=1&_v=j98&a=1048862459&t=pageview&_s=1&dl=https%3A%2F%2Ftodomvc.com%2F%2Fexamples%2Fpolymer%2Findex.html&ul=en-us&de=UTF-8&dt=Polymer%20%E2%80%A2%20TodoMVC&sd=24-bit&sr=1280x720&vp=1280x720&je=0&_utma=269352180.490142445.1667679584.1667679584.1667679584.1&_utmz=269352180.1667679584.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&_utmht=1667679589082&_u=AACCAEABAAAAACAAI~&jid=&gjid=&cid=490142445.1667679584&tid=UA-31081062-1&_gid=1092009724.1667679587&_slc=1&z=1823160092"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "758",
+							"url": "https://www.google-analytics.com/j/collect?v=1&_v=j98&a=1526404482&t=pageview&_s=1&dl=https%3A%2F%2Ftodomvc.com%2F%2Fexamples%2Fpolymer%2Findex.html&ul=en-us&de=UTF-8&dt=Polymer%20%E2%80%A2%20TodoMVC&sd=24-bit&sr=1280x720&vp=1280x720&je=0&_utma=269352180.671883479.1667679585.1667679585.1667679585.1&_utmz=269352180.1667679585.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&_utmht=1667679588065&_u=IQBCAEABAAAAACAAI~&jid=1320180389&gjid=1643328235&cid=671883479.1667679585&tid=UA-31081062-1&_gid=1255430904.1667679588&_r=1&_slc=1&z=573270555"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Strict-Transport-Security Header Not Set",
+							"risk": "Low",
+							"id": "724",
+							"url": "https://www.google-analytics.com/j/collect?v=1&_v=j98&a=751686064&t=pageview&_s=1&dl=https%3A%2F%2Ftodomvc.com%2F%2Fexamples%2Fpolymer%2Findex.html&ul=en-us&de=UTF-8&dt=Polymer%20%E2%80%A2%20TodoMVC&sd=24-bit&sr=1280x720&vp=1280x720&je=0&_utma=269352180.490142445.1667679584.1667679584.1667679584.1&_utmz=269352180.1667679584.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&_utmht=1667679587377&_u=IQBCAEABAAAAACAAI~&jid=2000748333&gjid=680850662&cid=490142445.1667679584&tid=UA-31081062-1&_gid=1092009724.1667679587&_r=1&_slc=1&z=1571372165"
+						}
+					]
+				},
+				{
+					"Timestamp Disclosure - Unix": [
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "517",
+							"url": "https://accounts.google.com/o/oauth2/postmessageRelay?parent=https%3A%2F%2Ftodomvc.com&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "232",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=auth/exm=plusone/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_1?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "230",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=auth/exm=plusone/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_1?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "234",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=auth/exm=plusone/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_1?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "129",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=plusone/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_0?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "128",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=plusone/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_0?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "130",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=plusone/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_0?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "637",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=rpc,shindig_random/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_0?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "636",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=rpc,shindig_random/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_0?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "638",
+							"url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.P0B2vZm_jJk.O/m=rpc,shindig_random/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA/cb=gapi.loaded_0?le=scs"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "102",
+							"url": "https://apis.google.com/js/plusone.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "101",
+							"url": "https://apis.google.com/js/plusone.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "103",
+							"url": "https://apis.google.com/js/plusone.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "166",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "181",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "199",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "175",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "314",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "172",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "196",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "307",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "198",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "302",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "187",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "205",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "306",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "171",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "164",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "191",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "313",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "177",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "182",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "190",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "167",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "174",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "318",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "203",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "212",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "206",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "281",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "280",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "176",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "162",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "282",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "157",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "301",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "160",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "178",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "279",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "158",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "180",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "159",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "207",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "168",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "161",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "188",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "165",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "163",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "268",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "316",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "170",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "204",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "173",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "310",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "179",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "304",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "548",
+							"url": "https://ssl.gstatic.com/accounts/o/1832714284-postmessagerelay.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "547",
+							"url": "https://ssl.gstatic.com/accounts/o/1832714284-postmessagerelay.js"
+						},
+						{
+							"param": "",
+							"confidence": "Low",
+							"name": "Timestamp Disclosure - Unix",
+							"risk": "Low",
+							"id": "549",
+							"url": "https://ssl.gstatic.com/accounts/o/1832714284-postmessagerelay.js"
+						}
+					]
+				},
+				{
+					"X-Content-Type-Options Header Missing": [
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "614",
+							"url": "https://api.realworld.io/api/articles?limit=10&offset=0"
+						},
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "578",
+							"url": "https://api.realworld.io/api/tags"
+						},
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "71",
+							"url": "https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+						},
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "545",
+							"url": "https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.ttf?v=2.0.1"
+						},
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "86",
+							"url": "https://demo.productionready.io/main.css"
+						},
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "532",
+							"url": "https://platform.twitter.com/js/button.d2f864f87f544dc0c11d7d712a191c1f.js"
+						},
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "113",
+							"url": "https://platform.twitter.com/widgets.js"
+						},
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "573",
+							"url": "https://platform.twitter.com/widgets/follow_button.644279d1635fd969e87af94a98bd232b.en.html"
+						},
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "595",
+							"url": "https://platform.twitter.com/widgets/tweet_button.644279d1635fd969e87af94a98bd232b.en.html"
+						},
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "322",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "38",
+							"url": "https://react-redux.realworld.io/"
+						},
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "618",
+							"url": "https://react-redux.realworld.io/main.js"
+						},
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "572",
+							"url": "https://syndication.twitter.com/settings?session_id=40e1a755bff5e110dc73dec64260f69762fc98b7"
+						},
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "498",
+							"url": "https://syndication.twitter.com/settings?session_id=a81b4bda197e514e7b5182b424a8b33d473e6078"
+						},
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "769",
+							"url": "https://syndication.twitter.com/settings?session_id=d98ee303dcf536917842e7db8fb426493be1bce8"
+						},
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "58",
+							"url": "https://todomvc.com//"
+						},
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "81",
+							"url": "https://todomvc.com//bower_components/paper-icon-button/"
+						},
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "9",
+							"url": "https://todomvc.com//bower_components/webcomponentsjs/webcomponents-lite.min.js"
+						},
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "676",
+							"url": "https://todomvc.com//examples/polymer/bower_components/todomvc-app-css/index.css"
+						},
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "642",
+							"url": "https://todomvc.com//examples/polymer/bower_components/todomvc-common/base.css"
+						},
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "647",
+							"url": "https://todomvc.com//examples/polymer/bower_components/todomvc-common/base.js"
+						},
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "706",
+							"url": "https://todomvc.com//examples/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js"
+						},
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "690",
+							"url": "https://todomvc.com//examples/polymer/elements/elements.build.html"
+						},
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "740",
+							"url": "https://todomvc.com//examples/polymer/elements/elements.build.js"
+						},
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "635",
+							"url": "https://todomvc.com//examples/polymer/index.html"
+						},
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "677",
+							"url": "https://todomvc.com//learn.json"
+						},
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "13",
+							"url": "https://todomvc.com//site-assets/main.min.css"
+						},
+						{
+							"param": "X-Content-Type-Options",
+							"confidence": "Medium",
+							"name": "X-Content-Type-Options Header Missing",
+							"risk": "Low",
+							"id": "32",
+							"url": "https://todomvc.com//site-assets/main.min.js"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Medium": [
+				{
+					"CSP: Wildcard Directive": [
+						{
+							"param": "Content-Security-Policy",
+							"confidence": "High",
+							"name": "CSP: Wildcard Directive",
+							"risk": "Medium",
+							"id": "506",
+							"url": "https://accounts.google.com/o/oauth2/postmessageRelay?parent=https%3A%2F%2Ftodomvc.com&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						},
+						{
+							"param": "Content-Security-Policy",
+							"confidence": "High",
+							"name": "CSP: Wildcard Directive",
+							"risk": "Medium",
+							"id": "503",
+							"url": "https://accounts.google.com/o/oauth2/postmessageRelay?parent=https%3A%2F%2Ftodomvc.com&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						},
+						{
+							"param": "Content-Security-Policy",
+							"confidence": "High",
+							"name": "CSP: Wildcard Directive",
+							"risk": "Medium",
+							"id": "515",
+							"url": "https://accounts.google.com/o/oauth2/postmessageRelay?parent=https%3A%2F%2Ftodomvc.com&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						},
+						{
+							"param": "Content-Security-Policy",
+							"confidence": "High",
+							"name": "CSP: Wildcard Directive",
+							"risk": "Medium",
+							"id": "772",
+							"url": "https://accounts.google.com/o/oauth2/postmessageRelay?parent=https%3A%2F%2Ftodomvc.com&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						}
+					]
+				},
+				{
+					"CSP: script-src unsafe-inline": [
+						{
+							"param": "Content-Security-Policy",
+							"confidence": "High",
+							"name": "CSP: script-src unsafe-inline",
+							"risk": "Medium",
+							"id": "507",
+							"url": "https://accounts.google.com/o/oauth2/postmessageRelay?parent=https%3A%2F%2Ftodomvc.com&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						}
+					]
+				},
+				{
+					"CSP: style-src unsafe-inline": [
+						{
+							"param": "Content-Security-Policy",
+							"confidence": "High",
+							"name": "CSP: style-src unsafe-inline",
+							"risk": "Medium",
+							"id": "508",
+							"url": "https://accounts.google.com/o/oauth2/postmessageRelay?parent=https%3A%2F%2Ftodomvc.com&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						},
+						{
+							"param": "Content-Security-Policy",
+							"confidence": "High",
+							"name": "CSP: style-src unsafe-inline",
+							"risk": "Medium",
+							"id": "504",
+							"url": "https://accounts.google.com/o/oauth2/postmessageRelay?parent=https%3A%2F%2Ftodomvc.com&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						},
+						{
+							"param": "Content-Security-Policy",
+							"confidence": "High",
+							"name": "CSP: style-src unsafe-inline",
+							"risk": "Medium",
+							"id": "516",
+							"url": "https://accounts.google.com/o/oauth2/postmessageRelay?parent=https%3A%2F%2Ftodomvc.com&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						},
+						{
+							"param": "Content-Security-Policy",
+							"confidence": "High",
+							"name": "CSP: style-src unsafe-inline",
+							"risk": "Medium",
+							"id": "773",
+							"url": "https://accounts.google.com/o/oauth2/postmessageRelay?parent=https%3A%2F%2Ftodomvc.com&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						}
+					]
+				},
+				{
+					"Content Security Policy (CSP) Header Not Set": [
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Content Security Policy (CSP) Header Not Set",
+							"risk": "Medium",
+							"id": "542",
+							"url": "https://platform.twitter.com/widgets/follow_button.644279d1635fd969e87af94a98bd232b.en.html"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Content Security Policy (CSP) Header Not Set",
+							"risk": "Medium",
+							"id": "581",
+							"url": "https://platform.twitter.com/widgets/tweet_button.644279d1635fd969e87af94a98bd232b.en.html"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Content Security Policy (CSP) Header Not Set",
+							"risk": "Medium",
+							"id": "138",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Content Security Policy (CSP) Header Not Set",
+							"risk": "Medium",
+							"id": "35",
+							"url": "https://react-redux.realworld.io/"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Content Security Policy (CSP) Header Not Set",
+							"risk": "Medium",
+							"id": "16",
+							"url": "https://todomvc.com//"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Content Security Policy (CSP) Header Not Set",
+							"risk": "Medium",
+							"id": "74",
+							"url": "https://todomvc.com//bower_components/paper-icon-button/"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Content Security Policy (CSP) Header Not Set",
+							"risk": "Medium",
+							"id": "686",
+							"url": "https://todomvc.com//examples/polymer/elements/elements.build.html"
+						},
+						{
+							"param": "",
+							"confidence": "High",
+							"name": "Content Security Policy (CSP) Header Not Set",
+							"risk": "Medium",
+							"id": "629",
+							"url": "https://todomvc.com//examples/polymer/index.html"
+						}
+					]
+				},
+				{
+					"Cross-Domain Misconfiguration": [
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "605",
+							"url": "https://api.realworld.io/api/articles?limit=10&offset=0"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "576",
+							"url": "https://api.realworld.io/api/tags"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "95",
+							"url": "https://apis.google.com/js/plusone.js"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "601",
+							"url": "https://apis.google.com/js/rpc:shindig_random.js?onload=init"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "66",
+							"url": "https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "500",
+							"url": "https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.ttf?v=2.0.1"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "147",
+							"url": "https://conduit.productionready.io/api/articles?limit=10&offset=0"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "149",
+							"url": "https://conduit.productionready.io/api/tags"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "60",
+							"url": "https://fonts.googleapis.com/css?family=Titillium+Web:700%7CSource+Serif+Pro:400,700%7CMerriweather+Sans:400,700%7CSource+Sans+Pro:400,300,600,700,300italic,400italic,600italic,700italic"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "266",
+							"url": "https://fonts.gstatic.com/s/sourcesanspro/v21/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "413",
+							"url": "https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "459",
+							"url": "https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu.woff2"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "448",
+							"url": "https://fonts.gstatic.com/s/titilliumweb/v15/NaPDcZTIAOhVxoMyOr9n_E7ffHjDGItzYw.woff2"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "527",
+							"url": "https://platform.twitter.com/js/button.d2f864f87f544dc0c11d7d712a191c1f.js"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "96",
+							"url": "https://platform.twitter.com/widgets.js"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "543",
+							"url": "https://platform.twitter.com/widgets/follow_button.644279d1635fd969e87af94a98bd232b.en.html"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "582",
+							"url": "https://platform.twitter.com/widgets/tweet_button.644279d1635fd969e87af94a98bd232b.en.html"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "139",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "17",
+							"url": "https://todomvc.com//"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "75",
+							"url": "https://todomvc.com//bower_components/paper-icon-button/"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "2",
+							"url": "https://todomvc.com//bower_components/webcomponentsjs/webcomponents-lite.min.js"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "673",
+							"url": "https://todomvc.com//examples/polymer/bower_components/todomvc-app-css/index.css"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "639",
+							"url": "https://todomvc.com//examples/polymer/bower_components/todomvc-common/base.css"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "643",
+							"url": "https://todomvc.com//examples/polymer/bower_components/todomvc-common/base.js"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "684",
+							"url": "https://todomvc.com//examples/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "687",
+							"url": "https://todomvc.com//examples/polymer/elements/elements.build.html"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "728",
+							"url": "https://todomvc.com//examples/polymer/elements/elements.build.js"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "630",
+							"url": "https://todomvc.com//examples/polymer/index.html"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "659",
+							"url": "https://todomvc.com//learn.json"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "4",
+							"url": "https://todomvc.com//site-assets/main.min.css"
+						},
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Cross-Domain Misconfiguration",
+							"risk": "Medium",
+							"id": "14",
+							"url": "https://todomvc.com//site-assets/main.min.js"
+						}
+					]
+				},
+				{
+					"Missing Anti-clickjacking Header": [
+						{
+							"param": "X-Frame-Options",
+							"confidence": "Medium",
+							"name": "Missing Anti-clickjacking Header",
+							"risk": "Medium",
+							"id": "499",
+							"url": "https://accounts.google.com/o/oauth2/postmessageRelay?parent=https%3A%2F%2Ftodomvc.com&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.P0B2vZm_jJk.O%2Fd%3D1%2Frs%3DAHpOoo_nmCaDbrwZCe_WiNZEgKVKQ-FnSA%2Fm%3D__features__"
+						},
+						{
+							"param": "X-Frame-Options",
+							"confidence": "Medium",
+							"name": "Missing Anti-clickjacking Header",
+							"risk": "Medium",
+							"id": "534",
+							"url": "https://platform.twitter.com/widgets/follow_button.644279d1635fd969e87af94a98bd232b.en.html"
+						},
+						{
+							"param": "X-Frame-Options",
+							"confidence": "Medium",
+							"name": "Missing Anti-clickjacking Header",
+							"risk": "Medium",
+							"id": "568",
+							"url": "https://platform.twitter.com/widgets/tweet_button.644279d1635fd969e87af94a98bd232b.en.html"
+						},
+						{
+							"param": "X-Frame-Options",
+							"confidence": "Medium",
+							"name": "Missing Anti-clickjacking Header",
+							"risk": "Medium",
+							"id": "121",
+							"url": "https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Ftodomvc.com"
+						},
+						{
+							"param": "X-Frame-Options",
+							"confidence": "Medium",
+							"name": "Missing Anti-clickjacking Header",
+							"risk": "Medium",
+							"id": "33",
+							"url": "https://react-redux.realworld.io/"
+						},
+						{
+							"param": "X-Frame-Options",
+							"confidence": "Medium",
+							"name": "Missing Anti-clickjacking Header",
+							"risk": "Medium",
+							"id": "7",
+							"url": "https://todomvc.com//"
+						},
+						{
+							"param": "X-Frame-Options",
+							"confidence": "Medium",
+							"name": "Missing Anti-clickjacking Header",
+							"risk": "Medium",
+							"id": "72",
+							"url": "https://todomvc.com//bower_components/paper-icon-button/"
+						},
+						{
+							"param": "X-Frame-Options",
+							"confidence": "Medium",
+							"name": "Missing Anti-clickjacking Header",
+							"risk": "Medium",
+							"id": "682",
+							"url": "https://todomvc.com//examples/polymer/elements/elements.build.html"
+						},
+						{
+							"param": "X-Frame-Options",
+							"confidence": "Medium",
+							"name": "Missing Anti-clickjacking Header",
+							"risk": "Medium",
+							"id": "624",
+							"url": "https://todomvc.com//examples/polymer/index.html"
+						}
+					]
+				},
+				{
+					"Vulnerable JS Library": [
+						{
+							"param": "",
+							"confidence": "Medium",
+							"name": "Vulnerable JS Library",
+							"risk": "Medium",
+							"id": "10",
+							"url": "https://todomvc.com//site-assets/main.min.js"
+						}
+					]
+				}
+			]
+		},
+		{ "High": [] }
+	]
+}
