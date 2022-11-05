@@ -4,27 +4,13 @@
 		{
 			"type": "node",
 			"request": "launch",
-			"name": "Jest All",
-			"program": "${workspaceFolder}/node_modules/.bin/jest",
-			"args": ["--runInBand", "--config", "jest.e2e.config.js"],
+			"name": "Playwright tests",
 			"console": "integratedTerminal",
-			"internalConsoleOptions": "neverOpen",
-			"disableOptimisticBPs": true,
-			"windows": {
-				"program": "${workspaceFolder}/node_modules/jest/bin/jest"
-			}
-		},
-		{
-			"type": "node",
-			"request": "launch",
-			"name": "Jest Current File",
-			"program": "${workspaceFolder}/node_modules/.bin/jest",
-			"args": ["${fileBasenameNoExtension}", "--runInBand", "--config", "jest.e2e.config.js"],
-			"console": "integratedTerminal",
-			"internalConsoleOptions": "neverOpen",
-			"disableOptimisticBPs": true,
-			"windows": {
-				"program": "${workspaceFolder}/node_modules/jest/bin/jest"
+			"skipFiles": ["<node_internals>/**"],
+			"runtimeExecutable": "npm",
+			"runtimeArgs": ["run-script", "vscode-debug", "--", "${fileBasename}"],
+			"env": {
+				"APIKEY": "mykey"
 			}
 		},
 		{

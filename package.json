@@ -5,7 +5,8 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "npx playwright test",
-		"build": "tsc"
+		"build": "tsc",
+		"vscode-debug": "playwright test --config ./playwright.config.js --workers=1"
 	},
 	"author": "",
 	"license": "ISC",

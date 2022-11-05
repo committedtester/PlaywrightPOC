@@ -2,74 +2,91 @@ import { test, expect } from "@playwright/test";
 import fetch from "node-fetch";
 
 test.describe("Confirm OWASP API", () => {
-	interface ZAPAlerts {
+	interface RootObject {
 		alertsByRisk: AlertsByRisk[];
 	}
 
 	interface AlertsByRisk {
-		Informational?: Alert[];
-		Low?: Alert[];
-		Medium?: Alert[];
-		High?: Alert[];
+		Informational: Informational[];
+		Low: Low[];
+		Medium: Medium[];
+		High: High[];
 	}
 
-	interface Alert {
-		[key: string]: AlertInformation[];
+	interface Medium {
+		[key: string]: AlertInstance[];
+	}
+	interface Low {
+		[key: string]: AlertInstance[];
+	}
+	interface Informational {
+		[key: string]: AlertInstance[];
+	}
+	interface High {
+		[key: string]: AlertInstance[];
 	}
 
-	interface AlertInformation {
+	interface AlertInstance {
 		param: string;
-		confidence: Confidence;
+		confidence: string;
 		name: string;
-		risk: Risk;
+		risk: string;
 		id: string;
 		url: string;
 	}
 
-	enum Confidence {
-		High = "High",
-		Low = "Low",
-		Medium = "Medium"
-	}
+	const getCountOfAlertRisk = (alertArray: AlertsByRisk[], alertName: string): number => {
+		const alertRiskIndex = getAlertRiskIndex(alertArray, alertName);
+		return alertArray[alertRiskIndex][alertName].length;
+	};
 
-	enum Risk {
-		Informational = "Informational",
-		Low = "Low",
-		Medium = "Medium"
-	}
+	const getAlertRiskIndex = (alertArray: AlertsByRisk[], alertName: string): number => {
+		let riskIndex = 0;
+		for (let index = 0; index < alertArray.length; index++) {
+			let test = alertArray[index][alertName];
+			if (test != undefined) {
+				riskIndex = index;
+			}
+		}
+		return riskIndex;
+	};
+
+	const getAlertArray = (alertArray: AlertsByRisk[], alertName: string): string[] => {
+		const alertRiskIndex = getAlertRiskIndex(alertArray, alertName);
+		let alertText: string[] = [];
+		for (let index = 0; index < alertArray[alertRiskIndex][alertName].length; index++) {
+			let textValue = alertArray[alertRiskIndex][alertName][index];
+			alertText.push(textValue);
+		}
+		return alertText;
+	};
+
+	const getAlertText = (alertArray: AlertsByRisk[], alertName: string): string => {
+		const alertRiskIndex = getAlertRiskIndex(alertArray, alertName);
+		let alertText: string = `Alert information for ${alertName}:\n\n `;
+		for (let index = 0; index < alertArray[alertRiskIndex][alertName].length; index++) {
+			let textValue = alertArray[alertRiskIndex][alertName][index];
+			alertText = alertText.concat(JSON.stringify(textValue) + "\n\n");
+		}
+		return alertText;
+	};
 
 	test(`Confirm OWASP API`, async () => {
 		const url = `http://localhost:8090/JSON/alert/view/alertsByRisk/?apikey=${process.env.APIKEY}&baseurl='https://todomvc.com'&recurse=`;
-		console.log(url);
+		console.log(`Reference URL for local OWASP ZAP \n${url}\n`);
 		const response = await fetch(url);
-		const data: ZAPAlerts = await response.json();
+		const data: RootObject = await response.json();
 
-		console.log(data.alertsByRisk[0].Medium);
-		
-		if (data.alertsByRisk[0].Medium != undefined) {
-			console.log(data.alertsByRisk[0].Medium[0]);
-		}
+		let dataAlerts = data.alertsByRisk;
 
-		let alertCount: number = 0;
-		let invalidAlertTypes: string[] = ["Medium", "High"];
+		let mediumAlertCount = getCountOfAlertRisk(dataAlerts, "Medium");
+		let highAlertCount = getCountOfAlertRisk(dataAlerts, "High");
 
-		for (let index = 0; index < data.alertsByRisk.length; index++) {
-			let currentAlertType = Object.keys(data.alertsByRisk[index])[0];
-
-			if (invalidAlertTypes.includes(currentAlertType)) {
-				console.log(`Risk Type is ${currentAlertType}`);
-				alertCount++;
-			}
-		}
-
-		if (alertCount >= 0) {
-			if (data.alertsByRisk[0].High != undefined) {
-				console.log(data.alertsByRisk[0].High[0]);
-			}
-			if (data.alertsByRisk[0].Medium != undefined) {
-				console.log(data.alertsByRisk[0].Medium[0]);
-			}
-			test.expect(alertCount).toBe(0);
-		}
+		await expect(
+			mediumAlertCount + highAlertCount,
+			`No High or Medium Alerts should be found.\n 
+			${getAlertText(dataAlerts, "High")} 
+			${getAlertText(dataAlerts, "Medium")}`
+		).toBe(0);
 	});
 });
