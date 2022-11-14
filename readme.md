@@ -33,7 +33,7 @@ To set this up I needed a docker container
 
 -   In a production context I needed a secure key to connect with **$env:APIKEY='mykey'**
 -   I needed a local OWASP ZAP local docker container
-    **docker run -p 8090:8090 -i owasp/zap2docker-stable zap.sh -daemon -port 8090 -host 0.0.0.0 -config api.key=$env:APIKEY -config api.addrs.addr.name=.\* -config api.addrs.addr.regex=true**
+    **docker run -p 8090:8090 -i owasp/zap2docker-stable zap.sh -daemon -port 8090 -host 0.0.0.0 -config api.key=$env:APIKEY -config api.addrs.addr.name=.* -config api.addrs.addr.regex=true**
 -   Confirm it's functional by going to http://localhost:8090
 
 Then I needed to run my playwright tests again.
@@ -51,7 +51,7 @@ I uncovered a bit too later, that the the webswing support means that API access
 https://github.com/zaproxy/zaproxy/issues/3497
 
 The Docker documentation for ZAP references this
-**docker run --name zap -u zap -p 8080:8080 -p 8090:8090 -i owasp/zap2docker-stable zap-webswing.sh -config api.key=$env:APIKEY**
+**docker run -u zap -v ${pwd}:/zap/wrk/:rw -p 8080:8080 -p 8090:8090 -i owasp/zap2docker-stable zap-webswing.sh -config api.key=$env:APIKEY**
 Use the above for understanding OWASP ZAP, but you won't be able to access the underlying API for extraction of alerts.
 (Use the docker command I specified above)
 
